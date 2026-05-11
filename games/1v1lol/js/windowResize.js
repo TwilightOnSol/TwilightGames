@@ -25,7 +25,7 @@ isIframe = false;
 		}
 		else {
 			var styles = `
-    @media screen and (max-width: 1200px) { 
+    @media screen and (max-width: 1200px) {
 		.ad-leaderboard-bottom {
 			display: none !important;
 		}
@@ -37,4 +37,4 @@ isIframe = false;
 			styleSheet.innerText = styles
 			document.head.appendChild(styleSheet)
 		}
-		
+

@@ -147,7 +147,7 @@ GameBoyAdvanceInterruptHandler.prototype.updateTimers = function() {
 					if (this.audio.enableChannelA && !this.audio.soundTimerA && this.audio.dmaA >= 0) {
 						this.audio.sampleFifoA();
 					}
-	
+
 					if (this.audio.enableChannelB && !this.audio.soundTimerB && this.audio.dmaB >= 0) {
 						this.audio.sampleFifoB();
 					}
@@ -184,7 +184,7 @@ GameBoyAdvanceInterruptHandler.prototype.updateTimers = function() {
 					if (this.audio.enableChannelA && this.audio.soundTimerA && this.audio.dmaA >= 0) {
 						this.audio.sampleFifoA();
 					}
-	
+
 					if (this.audio.enableChannelB && this.audio.soundTimerB && this.audio.dmaB >= 0) {
 						this.audio.sampleFifoB();
 					}

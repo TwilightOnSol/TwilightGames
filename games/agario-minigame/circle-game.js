@@ -1,4 +1,4 @@
-/* Copyright 2011 Shea Barton 
+/* Copyright 2011 Shea Barton
  * No unauthorized copying or modification
  */
 var cg = {

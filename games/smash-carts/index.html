@@ -307,11 +307,11 @@
     measurementId: "G-1W23DRFHK9"
 };
 
-	
+
 	// Initialize Firebase
 	firebase.initializeApp(firebaseConfig);
 
-	
+
 
 	var firebaseSupported = false;
 	if(firebase.analytics != null)
@@ -334,7 +334,7 @@
 	firebaseLogEvent("loading_page_start");
 
 	updateAdBlockDetected();
-	
+
 	var timerStart = Date.now();
 	var sentGameInstanceStartEvent = false;
 

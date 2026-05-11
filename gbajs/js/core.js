@@ -363,7 +363,7 @@ ARMCore.prototype.switchExecMode = function(newMode) {
 			this.loadInstruction = this.loadInstructionThumb;
 		}
 	}
-	
+
 };
 
 ARMCore.prototype.switchMode = function(newMode) {
@@ -927,7 +927,7 @@ ARMCore.prototype.compileArm = function(instruction) {
 				var rm = instruction & 0x0000000F;
 				var shiftType = instruction & 0x00000060;
 				var shiftImmediate = (instruction & 0x00000F80) >> 7;
-				
+
 				if (shiftType || shiftImmediate) {
 					var shiftOp = this.barrelShiftImmediate(shiftType, shiftImmediate, rm);
 					address = this.armCompiler.constructAddressingMode2RegisterShifted(instruction, shiftOp, condOp);

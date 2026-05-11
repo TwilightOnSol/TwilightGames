@@ -164,7 +164,7 @@ GameBoyAdvanceRTC.prototype.processByte = function() {
 		// Control
 		this.control = this.bits & 0x40;
 		break;
-	}	
+	}
 	this.bits = 0;
 	this.bitsRead = 0;
 	if (!this.bytesRemaining) {

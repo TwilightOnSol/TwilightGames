@@ -28,7 +28,7 @@ Console.prototype.updateCPSR = function() {
 	var bit = function(psr, member) {
 		var element = document.getElementById(psr);
 		if (cpu[member]) {
-			element.removeAttribute('class'); 
+			element.removeAttribute('class');
 		} else {
 			element.setAttribute('class', 'disabled');
 		}
@@ -39,7 +39,7 @@ Console.prototype.updateCPSR = function() {
 	bit('cpsrV', 'cpsrV');
 	bit('cpsrI', 'cpsrI');
 	bit('cpsrT', 'execMode');
-	
+
 	var mode = document.getElementById('mode');
 	switch (cpu.mode) {
 	case cpu.MODE_USER:
@@ -346,7 +346,7 @@ Memory.prototype.refresh = function(row) {
 				}
 			} else {
 				child.setAttribute('class', 'memoryCell');
-				child.textContent = '--';				
+				child.textContent = '--';
 			}
 		} catch (exception) {
 			child.setAttribute('class', 'memoryCell');
