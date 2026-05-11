@@ -1,17 +1,9 @@
-# TwilightGames
+# Twilight Games
 
 ## Overview
-This repository is part of the TwilightOnSol ecosystem. It has been audited and refactored for better performance and maintainability.
+A browser-based game portal that hosts a variety of popular web games. It provides a centralized hub for quick access to entertainment without the need for installations.
 
-## Project Structure
-- bg.png
-- index.html
-- main.css
-- script.js
-- README.md
-- Manus AI feedback & overview
-- Slope-Game/README.md
-- Slope-Game/ads.txt
-- Slope-Game/index.html
-- Slope-Game/Build/slope.json
-- ...
+## Features
+- **Game Collection**: Includes popular titles like the Slope Game.
+- **Clean UI**: Simple navigation and responsive design.
+- **PWA Ready**: Optimized for mobile and desktop browser play.
