@@ -8,10 +8,10 @@ This repository is part of the TwilightOnSol ecosystem. It has been audited and 
 - index.html
 - main.css
 - script.js
+- README.md
+- Manus AI feedback & overview
 - Slope-Game/README.md
 - Slope-Game/ads.txt
 - Slope-Game/index.html
 - Slope-Game/Build/slope.json
-- Slope-Game/Build/slope_data.unityweb
-- Slope-Game/Build/slope_framework.unityweb
 - ...
